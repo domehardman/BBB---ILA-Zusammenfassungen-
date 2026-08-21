@@ -12,10 +12,13 @@ Heute habe ich die Bremsphysik meines Autos von Grund auf repariert. Der Ursprun
 #### Arbeitspakete
  [ ] Nichtlineares Reifenmodell (Schlupfkurve statt linearer Grip)
 Ich baue die aktuelle lineare Grip-Berechnung (Kraft steigt unbegrenzt proportional zur Rutschgeschwindigkeit) zu einem realistischeren Modell um, bei dem die Kraft bis zu einem Peak-Schlupfwert ansteigt und danach wieder abfällt — so wie sich echte Reifen beim Ausbrechen/Driften verhalten. Das ist die Grundlage für alles Weitere in diesem Themenblock.
+
  [ ] Statische und dynamische Gewichtsverteilung
 Ich implementiere, wie viel Gewicht auf jedem Rad lastet, abhängig von Fahrzeugmasse, Schwerpunktlage und aktuellen Beschleunigungskräften (Bremsen verlagert Gewicht nach vorne, Beschleunigen nach hinten, Kurvenfahrt seitlich). Diese Gewichtswerte sollen direkt in die Grip-Berechnung pro Rad einfließen, statt wie bisher nur die Federkompression zu nutzen.
+
  [ ] Reifentemperatur- und Verschleiß-Grundgerüst
 Ich lege eine erste einfache Version an, bei der Reifen durch Schlupf Wärme aufbauen und dadurch (in einem gewissen Bereich) mehr Grip bekommen — später ausbaufähig zu Überhitzung und Abbau, passend zu den historischen Reifentechnologien der verschiedenen Jahrzehnte.
+
  [ ] Ackermann-Lenkgeometrie
 Ich ersetze die aktuelle Lenkung, bei der beide Vorderräder um denselben Winkel einschlagen, durch eine Ackermann-Geometrie, bei der das kurveninnere Rad stärker einschlägt als das äußere — das verbessert sowohl die Optik als auch das Kurvenverhalten spürbar.
  #### Zusammenfassung
