@@ -20,19 +20,21 @@ Ich lege eine erste einfache Version an, bei der Reifen durch Schlupf Wärme auf
 - [x] Ackermann-Lenkgeometrie
 Ich ersetze die aktuelle Lenkung, bei der beide Vorderräder um denselben Winkel einschlagen, durch eine Ackermann-Geometrie, bei der das kurveninnere Rad stärker einschlägt als das äußere — das verbessert sowohl die Optik als auch das Kurvenverhalten spürbar.
 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 #### Zusammenfassung
  Heute konnte ich alle meine geplanten Arbeitspakete erfolgreich abschliessen. Zusätzlich habe ich verschiedene Dämpfer, Federgeometrien und Reifentypen in die Simulation integriert. Das Fahrzeug kann nun z.B. entweder mit einer Swingachse oder einer klassischen Double-Wishbone-Aufhängung ausgestattet werden.
 Während der Tests bin ich jedoch auf einen noch nicht behobenen Bug gestossen: Das Fahrzeug berechnet ein deutlich zu hohes Drehmoment, wodurch die Reifen bereits bei geringer Belastung dauerhaft durchdrehen. Dadurch wird die Antriebskraft nicht korrekt auf den Boden übertragen und das Fahrzeug beschleunigt deutlich schlechter als erwartet.
 
 ## 6.9.2026
 #### Arbeitspakete
-- [] Bug-Fixes
+- [ ] Bug-Fixes
 Ich werde den Berechnungsfehler untersuchen, der für das extrem hohe Drehmoment verantwortlich ist, und versuchen, die Ursache systematisch einzugrenzen und zu beheben.
 Dabei werde ich insbesondere die einzelnen Berechnungsschritte des Drehmoments und der Kraftübertragung überprüfen.
-- [] Visualisierung meiner Räder
+- [ ] Visualisierung meiner Räder
 Ich werde die globale Position und Rotation meiner Räder bei jedem Tick aktualisieren. Dadurch können unter anderem Camber-Änderungen, Radrotation, Durchdrehen der Reifen und Lenkwinkel visuell dargestellt werden. Die Visualisierung soll zusätzlich beim Debugging und beim Testen des Drehmoment-Bugs helfen.
-- [] Reifen-Squish
+- [ ] Reifen-Squish
 Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
-- [] Reifen-Seitenwand und Karkassenmodell
+- [ ] Reifen-Seitenwand und Karkassenmodell
 Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
 
