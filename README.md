@@ -9,6 +9,8 @@
 #### Zusammenfassung
 Heute habe ich die Bremsphysik meines Autos von Grund auf repariert. Der Ursprungscode hatte eine feste Bremskraft in eine feste Richtung angewendet, komplett unabhängig von der tatsächlichen Fahrgeschwindigkeit — das führte dazu, dass die Bremse das Auto bei Stillstand aktiv rückwärts beschleunigt hat, statt es zu stoppen. Ich habe verstanden, warum das Muster aus meiner bestehenden Grip-Berechnung (Richtung definieren → Geschwindigkeit in diese Richtung mit .dot() messen → daraus eine begrenzte Gegenkraft mit clamp() bauen → erst am Ende zu einem Kraftvektor zusammensetzen) genau das Problem löst, und habe die Bremse Schritt für Schritt nach diesem Muster neu aufgebaut. Dabei ist mir auch aufgefallen, wie wichtig die Reihenfolge Skalar-vs-Vektor ist — mehrere meiner ersten Versuche sind daran gescheitert, dass ich Zahlen und Richtungsvektoren vermischt habe, bevor beide fertig waren. Zusätzlich habe ich eine bremskraftverteilung-Variable eingebaut, die die Bremskraft zwischen Vorder- und Hinterachse aufteilt, und zwei Bugs gefixt: eine Variable, die versehentlich außerhalb von _physics_process() stand und dadurch nur einmal beim Spielstart berechnet wurde statt jeden Frame, sowie eine vertauschte Zuordnung der Verteilung zwischen Vorder- und Hinterrädern.
 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 ## 28.8.2026
 #### Arbeitspakete
 - [x] Nichtlineares Reifenmodell (Schlupfkurve statt linearer Grip)
@@ -20,11 +22,11 @@ Ich lege eine erste einfache Version an, bei der Reifen durch Schlupf Wärme auf
 - [x] Ackermann-Lenkgeometrie
 Ich ersetze die aktuelle Lenkung, bei der beide Vorderräder um denselben Winkel einschlagen, durch eine Ackermann-Geometrie, bei der das kurveninnere Rad stärker einschlägt als das äußere — das verbessert sowohl die Optik als auch das Kurvenverhalten spürbar.
 
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
 #### Zusammenfassung
  Heute konnte ich alle meine geplanten Arbeitspakete erfolgreich abschliessen. Zusätzlich habe ich verschiedene Dämpfer, Federgeometrien und Reifentypen in die Simulation integriert. Das Fahrzeug kann nun z.B. entweder mit einer Swingachse oder einer klassischen Double-Wishbone-Aufhängung ausgestattet werden.
 Während der Tests bin ich jedoch auf einen noch nicht behobenen Bug gestossen: Das Fahrzeug berechnet ein deutlich zu hohes Drehmoment, wodurch die Reifen bereits bei geringer Belastung dauerhaft durchdrehen. Dadurch wird die Antriebskraft nicht korrekt auf den Boden übertragen und das Fahrzeug beschleunigt deutlich schlechter als erwartet.
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## 6.9.2026
 #### Arbeitspakete
