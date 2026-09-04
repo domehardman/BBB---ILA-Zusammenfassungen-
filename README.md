@@ -28,15 +28,28 @@ Während der Tests bin ich jedoch auf einen noch nicht behobenen Bug gestossen: 
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-## 6.9.2026
+## 4.9.2026
 #### Arbeitspakete
-- [ ] Bug-Fixes
+- [x] Bug-Fixes
 Ich werde den Berechnungsfehler untersuchen, der für das extrem hohe Drehmoment verantwortlich ist, und versuchen, die Ursache systematisch einzugrenzen und zu beheben.
 Dabei werde ich insbesondere die einzelnen Berechnungsschritte des Drehmoments und der Kraftübertragung überprüfen.
-- [ ] Visualisierung meiner Räder
+- [x] Visualisierung meiner Räder
 Ich werde die globale Position und Rotation meiner Räder bei jedem Tick aktualisieren. Dadurch können unter anderem Camber-Änderungen, Radrotation, Durchdrehen der Reifen und Lenkwinkel visuell dargestellt werden. Die Visualisierung soll zusätzlich beim Debugging und beim Testen des Drehmoment-Bugs helfen.
 - [ ] Reifen-Squish
 Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
 - [ ] Reifen-Seitenwand und Karkassenmodell
 Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
 
+#### Zusammenfassung
+Diese Woche lief leider nicht nach Plan, da mich die Behebung zahlreicher neu entdeckter Bugs extrem aufgehalten hat. Dadurch fehlte mir letztendlich die Zeit, um die Raycasts und die Reifenphysik (Squish und Karkassenmodell) wie geplant umzusetzen. Ein großer Erfolg war jedoch, dass ich zum Schluss zumindest noch die Räder korrekt animieren konnte. Die zwei unerfüllten Pakete nehme ich in die nächste Woche mit, wo ich außerdem noch ein paar kleinere Fehler beheben werde, wie etwa das leichte Zittern des Autos bei höheren Geschwindigkeiten.
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## 11.9.2026
+#### Arbeitspakete
+- [ ] Reifen-Squish
+Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
+- [ ] Reifen-Seitenwand und Karkassenmodell
+Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
+- [ ] Implementierung von Aerodynamik und Abtrieb (Downforce)
+Ich werde ein grundlegendes Aerodynamik-System hinzufügen, das den Luftwiderstand und den Abtrieb basierend auf der aktuellen Fahrzeuggeschwindigkeit berechnet. Der zusätzliche Anpressdruck auf Vorder- und Hinterachse soll nicht nur den Grip in schnellen Kurven erhöhen, sondern auch dazu beitragen, das Auto bei hohen Geschwindigkeiten stärker auf den Boden zu drücken und so das Fahrverhalten weiter zu stabilisieren.
