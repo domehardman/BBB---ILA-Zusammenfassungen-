@@ -53,3 +53,27 @@ Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dab
 Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
 - [ ] Implementierung von Aerodynamik und Abtrieb (Downforce)
 Ich werde ein grundlegendes Aerodynamik-System hinzufügen, das den Luftwiderstand und den Abtrieb basierend auf der aktuellen Fahrzeuggeschwindigkeit berechnet. Der zusätzliche Anpressdruck auf Vorder- und Hinterachse soll nicht nur den Grip in schnellen Kurven erhöhen, sondern auch dazu beitragen, das Auto bei hohen Geschwindigkeiten stärker auf den Boden zu drücken und so das Fahrverhalten weiter zu stabilisieren.
+- [ ] Fehlerbehebung
+die drecks käfer krabbeln mir einen zu viel!!!
+
+#### Zusammenfassung
+Diese Woche lief leider nicht nach Plan, da ich einfach nicht hinter die hartnäckigen Bugs bei der Reifenphysik kommen konnte. Zwischenzeitlich war ich so blockiert, dass ich bei der Fehlersuche der KI die Überhand ließ – wodurch sich aber letztendlich auch nichts verbesserte. Dadurch fehlte mir ein funktionierender Ansatz, um den Reifen-Squish, die Seitenwand und das Karkassenmodell wie geplant umzusetzen. Ich bin zu dem Schluss gekommen, dass ich wahrscheinlich fundamentale Berechnungen ändern muss, um das Zeug funktional zu machen. Ein großer Erfolg war jedoch, dass ich den Rest erfolgreich implementiert habe: Das neue Aerodynamik-System für Luftwiderstand und Abtrieb (Downforce) ist integriert und sorgt bereits für spürbar mehr Anpressdruck und Stabilität bei hohen Geschwindigkeiten. Die unerfüllten Reifen-Pakete nehme ich in die nächste Woche mit, wo ich sie mit einem neuen mathematischen Fundament angehen werde.
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## 18.9.2026
+#### Arbeitspakete
+- [ ] Überarbeitung der fundamentalen Physik-Berechnungen
+Ich werde die mathematische Basis für die Radaufhängung und die grundlegende Kraftübertragung neu strukturieren. Da der alte Code zu unlösbaren Bugs geführt hat, baue ich ein saubereres, fehlerbereinigtes Fundament auf. Dies ist zwingend notwendig, damit die komplexere Reifensimulation (Karkasse und Squish) im nächsten Schritt stabil berechnet werden kann.
+
+- [ ] Reifen-Squish
+Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
+
+- [ ] Reifen-Seitenwand und Karkassenmodell
+Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
+
+- [ ] Visuelles Feedback für Rad-Drehgeschwindigkeit (Skidmarks & Partikel)
+Einfaches visual das anzeigt wie schnell jedes rad in dem moment dreht in rpm
+
+
+
