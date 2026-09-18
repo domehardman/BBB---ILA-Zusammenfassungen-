@@ -80,6 +80,12 @@ Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dab
 Heute ist wirklich alles perfekt gelaufen. Ich habe es endlich geschafft, etwas Funktionales, Detailliertes und einigermassen Realistisches zu erstellen. Ich habe keine weiteren Bugs gefunden.
 Das Problem lag letztendlich daran, dass jedes Mal, wenn der Grip aufgrund der Gewichtsverlagerung des Fahrzeugs neu berechnet wurde, dem horizontalen Gripkoeffizienten mehr abgezogen wurde, als ich ihm jemals wieder zurückgegeben habe. Dadurch wurde das Auto mit jeder Neuberechnung schlechter und schlechter, bis es sich schlussendlich unendlich lange im Kreis gedreht hat und ich nichts mehr dagegen tun konnte. das war letztendlich schwer zu finden aber leicht zu flicken. ich konnte zwar mein sehr advancen ziele wie das karkassenmodell nicht einfügen aber ich bin glücklich.
 
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Reflexion LP - 1
+Hiermit ist die erste Lernperiode der ILA beendet. Ich finde, es war eine lehrreiche, aber auch anspruchsvolle Zeit mit deutlichen Höhen und Tiefen. Am Anfang lief es gut, besonders als ich an einem Tag gleich mehrere komplexe Konzepte wie das nichtlineare Reifenmodell und die Ackermann-Lenkung erfolgreich umsetzen konnte. Danach habe ich mich jedoch über mehrere Wochen mit hartnäckigen Bugs in der Reifenphysik herumgeschlagen. Besonders lehrreich war die Erkenntnis, dass ein Fehler bei jeder Neuberechnung minimal mehr Grip abgezogen als zurückgegeben hat, was mir gezeigt hat, wie wichtig es ist, ganze Rechenketten statt nur einzelner Formeln zu überprüfen. Trotz der Rückschläge und einiger unerreichter, sehr ambitionierter Ziele bin ich stolz auf das Ergebnis und nehme mir für die nächste Lernperiode vor, von Anfang an strukturierter zu arbeiten.
+
+
 
 
 
