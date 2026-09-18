@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="TireModel" load_steps=2 format=3 uid="uid://buq62a5bpll20"]
+
+[ext_resource type="Script" path="res://gp_car/TireModel.gd" id="1_eiyks"]
+
+[resource]
+script = ExtResource("1_eiyks")
+peak_grip_coefficient = 4.0
+grip_multiplier = 1.1
+friction_circle_exponent = 1.0
+pacejka_b_lateral = 12.0
+pacejka_c_lateral = 1.3
+pacejka_e_lateral = 0.9
+peak_slip_angle_deg = 8.0
+pacejka_b_longitudinal = 14.0
+pacejka_c_longitudinal = 1.5
+pacejka_e_longitudinal = 0.85
+peak_slip_ratio = 0.12
+ideal_temperature = 60.0
+temperature_window = 90.0
+min_temperature_grip = 0.3
+heating_rate = 0.015
+cooling_rate = 0.15
+wear_rate = 9e-05
+min_wear_grip = 0.8
+reference_load = 2200.0
+load_sensitivity = 0.15

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="TireModel" load_steps=2 format=3 uid="uid://bpam0o3uj824j"]
+
+[ext_resource type="Script" path="res://gp_car/TireModel.gd" id="1_r1t6m"]
+
+[resource]
+script = ExtResource("1_r1t6m")
+peak_grip_koeffizient = 0.7
+grip_multiplikator = 1.0
+reibkreis_exponent = 1.0
+pacejka_b_lateral = 9.0
+pacejka_c_lateral = 1.15
+pacejka_e_lateral = 0.75
+peak_schlupfwinkel_grad = 6.0
+pacejka_b_longitudinal = 10.0
+pacejka_c_longitudinal = 1.2
+pacejka_e_longitudinal = 0.7
+peak_schlupf_ratio = 0.1
+idealtemperatur = 45.0
+temperatur_fenster = 140.0
+min_temperatur_grip = 0.6
+aufheiz_rate = 0.008
+abkuehl_rate = 0.15
+verschleiss_rate = 9e-05
+min_verschleiss_grip = 0.8
+referenz_radlast = 1800.0
+lastempfindlichkeit = 0.22
