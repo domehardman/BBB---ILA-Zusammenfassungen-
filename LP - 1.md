@@ -1,6 +1,9 @@
 # Lernperiode 1
 14.08 2026 - 26.09 2026
 
+<img width="1012" height="500" alt="grafik" src="https://github.com/user-attachments/assets/22744b32-4be3-4c1d-94bd-ac6fb3ec835f" />
+
+
 ## Grob-Planung: Projekt Rennauto Godot 4.2
 1. keine noten bisher erhalten
 2. mein projekt ist die programmierung eines hoch realistischen adaptiven autos in dem game engine Godot ich achte besonders auf eine akkurate rekreation der handling charakteristiken und physik des fahrens das auto soll anpassbar auf verschiedene auto-arten sein und ein anpassbares fahrverhalten haben sowie ein fokus auf die fahrdynamik der 20er-50er jahre
