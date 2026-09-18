@@ -1,8 +1,11 @@
 # Lernperiode 1
 14.08 2026 - 26.09 2026
 
+# Projekt Auto in Godot:
+
 <img width="1012" height="500" alt="grafik" src="https://github.com/user-attachments/assets/22744b32-4be3-4c1d-94bd-ac6fb3ec835f" />
 
+Das Projekt ist ein Fahrphysik-System für ein Rennspiel in der Godot-Engine, das Autos aus verschiedenen Epochen (1910er, 1920er/30er, 1950er) realistisch simuliert, statt sie simpel vorwärts fahren zu lassen. Für jedes der vier Räder werden einzeln Federung, Drehzahl und Grip berechnet, dazu kommen vier historische Achstypen (Starrachse, Pendelachse, Doppelquerlenker, De-Dion) und zwei Dämpferarten, die jeweils unterschiedlich federn und lenken. Das Herzstück ist ein Reifenmodell, das echten Grip abhängig von Schräglaufwinkel, Durchdrehen, Temperatur und Verschleiß berechnet, ergänzt um Aerodynamik, die bei hohem Tempo mehr Anpressdruck, aber auch mehr Luftwiderstand erzeugt. Dadurch fühlt sich jedes Auto spürbar anders an: ältere Fahrzeuge mit schmaleren Reifen rutschen leichter weg als spätere Modelle mit besserem Gummi. Das Auto kann so realistisch übersteuern, untersteuern, durchdrehen oder blockieren, ganz wie ein echtes Fahrzeug.
 
 ## Grob-Planung: Projekt Rennauto Godot 4.2
 1. keine noten bisher erhalten
