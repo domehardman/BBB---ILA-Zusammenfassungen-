@@ -41,7 +41,7 @@ Ich werde den Berechnungsfehler untersuchen, der für das extrem hohe Drehmoment
 Dabei werde ich insbesondere die einzelnen Berechnungsschritte des Drehmoments und der Kraftübertragung überprüfen.
 - [x] Visualisierung meiner Räder
 Ich werde die globale Position und Rotation meiner Räder bei jedem Tick aktualisieren. Dadurch können unter anderem Camber-Änderungen, Radrotation, Durchdrehen der Reifen und Lenkwinkel visuell dargestellt werden. Die Visualisierung soll zusätzlich beim Debugging und beim Testen des Drehmoment-Bugs helfen.
-- [ ] Reifen-Squish
+- [x] Reifen-Squish
 Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
 - [ ] Reifen-Seitenwand und Karkassenmodell
 Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
@@ -53,13 +53,13 @@ ________________________________________________________________________________
 
 ## 11.9.2026
 #### Arbeitspakete
-- [ ] Reifen-Squish
+- [x] Reifen-Squish
 Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
 - [ ] Reifen-Seitenwand und Karkassenmodell
 Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
-- [ ] Implementierung von Aerodynamik und Abtrieb (Downforce)
+- [x] Implementierung von Aerodynamik und Abtrieb (Downforce)
 Ich werde ein grundlegendes Aerodynamik-System hinzufügen, das den Luftwiderstand und den Abtrieb basierend auf der aktuellen Fahrzeuggeschwindigkeit berechnet. Der zusätzliche Anpressdruck auf Vorder- und Hinterachse soll nicht nur den Grip in schnellen Kurven erhöhen, sondern auch dazu beitragen, das Auto bei hohen Geschwindigkeiten stärker auf den Boden zu drücken und so das Fahrverhalten weiter zu stabilisieren.
-- [ ] Fehlerbehebung
+- [x] Fehlerbehebung
 die drecks käfer krabbeln mir einen zu viel!!!
 
 #### Zusammenfassung
@@ -69,15 +69,14 @@ ________________________________________________________________________________
 
 ## 18.9.2026
 #### Arbeitspakete
-- [ ] Überarbeitung der fundamentalen Physik-Berechnungen
+- [x] Überarbeitung der fundamentalen Physik-Berechnungen
 Ich werde die mathematische Basis für die Radaufhängung und die grundlegende Kraftübertragung neu strukturieren. Da der alte Code zu unlösbaren Bugs geführt hat, baue ich ein saubereres, fehlerbereinigtes Fundament auf. Dies ist zwingend notwendig, damit die komplexere Reifensimulation (Karkasse und Squish) im nächsten Schritt stabil berechnet werden kann.
-
-- [ ] Reifen-Squish
+- [x] Reifen-Squish
 Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
 
 #### Zusammenfassung
 Heute ist wirklich alles perfekt gelaufen. Ich habe es endlich geschafft, etwas Funktionales, Detailliertes und einigermassen Realistisches zu erstellen. Ich habe keine weiteren Bugs gefunden.
-Das Problem lag letztendlich daran, dass jedes Mal, wenn der Grip aufgrund der Gewichtsverlagerung des Fahrzeugs neu berechnet wurde, dem horizontalen Gripkoeffizienten mehr abgezogen wurde, als ich ihm jemals wieder zurückgegeben habe. Dadurch wurde das Auto mit jeder Neuberechnung schlechter und schlechter, bis es sich schlussendlich unendlich lange im Kreis gedreht hat und ich nichts mehr dagegen tun konnte. das war letztendlich schwer zu finden aber leicht zu flicken.
+Das Problem lag letztendlich daran, dass jedes Mal, wenn der Grip aufgrund der Gewichtsverlagerung des Fahrzeugs neu berechnet wurde, dem horizontalen Gripkoeffizienten mehr abgezogen wurde, als ich ihm jemals wieder zurückgegeben habe. Dadurch wurde das Auto mit jeder Neuberechnung schlechter und schlechter, bis es sich schlussendlich unendlich lange im Kreis gedreht hat und ich nichts mehr dagegen tun konnte. das war letztendlich schwer zu finden aber leicht zu flicken. ich konnte zwar mein sehr advancen ziele wie das karkassenmodell nicht einfügen aber ich bin glücklich.
 
 
 
