@@ -7,6 +7,8 @@
 
 Das Projekt ist ein Fahrphysik-System für ein Rennspiel in der Godot-Engine, das Autos aus verschiedenen Epochen (1910er, 1920er/30er, 1950er) realistisch simuliert, statt sie simpel vorwärts fahren zu lassen. Für jedes der vier Räder werden einzeln Federung, Drehzahl und Grip berechnet, dazu kommen vier historische Achstypen (Starrachse, Pendelachse, Doppelquerlenker, De-Dion) und zwei Dämpferarten, die jeweils unterschiedlich federn und lenken. Das Herzstück ist ein Reifenmodell, das echten Grip abhängig von Schräglaufwinkel, Durchdrehen, Temperatur und Verschleiß berechnet, ergänzt um Aerodynamik, die bei hohem Tempo mehr Anpressdruck, aber auch mehr Luftwiderstand erzeugt. Dadurch fühlt sich jedes Auto spürbar anders an: ältere Fahrzeuge mit schmaleren Reifen rutschen leichter weg als spätere Modelle mit besserem Gummi. Das Auto kann so realistisch übersteuern, untersteuern, durchdrehen oder blockieren, ganz wie ein echtes Fahrzeug.
 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 ## Grob-Planung: Projekt Rennauto Godot 4.2
 1. keine noten bisher erhalten
 2. mein projekt ist die programmierung eines hoch realistischen adaptiven autos in dem game engine Godot ich achte besonders auf eine akkurate rekreation der handling charakteristiken und physik des fahrens das auto soll anpassbar auf verschiedene auto-arten sein und ein anpassbares fahrverhalten haben sowie ein fokus auf die fahrdynamik der 20er-50er jahre
