@@ -69,11 +69,10 @@ Ich werde die mathematische Basis für die Radaufhängung und die grundlegende K
 - [ ] Reifen-Squish
 Ich werde die Kontaktfläche zwischen Reifen und Fahrbahn genauer berechnen. Dabei soll die Verformung des Reifens abhängig von dessen Weichheit, Belastung und Squish berücksichtigt werden. Ziel ist eine realistischere Darstellung der Kraftübertragung zwischen Reifen und Fahrbahn.
 
-- [ ] Reifen-Seitenwand und Karkassenmodell
-Ich erweitere das Reifenmodell um eine vereinfachte Berechnung der Seitenwand- und Karkassenverformung. Abhängig von Reifenlast, Reifendruck und Quer- beziehungsweise Längskräften soll sich der Reifen unterschiedlich stark verformen und dadurch die Aufstandsfläche sowie das Verhalten des Reifens beeinflussen. Dadurch soll neben dem bereits berechneten Squish auch die seitliche Verformung des Reifens realistischer dargestellt werden.
+#### Zusammenfassung
+Heute ist wirklich alles perfekt gelaufen. Ich habe es endlich geschafft, etwas Funktionales, Detailliertes und einigermassen Realistisches zu erstellen. Ich habe keine weiteren Bugs gefunden.
+Das Problem lag letztendlich daran, dass jedes Mal, wenn der Grip aufgrund der Gewichtsverlagerung des Fahrzeugs neu berechnet wurde, dem horizontalen Gripkoeffizienten mehr abgezogen wurde, als ich ihm jemals wieder zurückgegeben habe. Dadurch wurde das Auto mit jeder Neuberechnung schlechter und schlechter, bis es sich schlussendlich unendlich lange im Kreis gedreht hat und ich nichts mehr dagegen tun konnte. das war letztendlich schwer zu finden aber leicht zu flicken.
 
-- [ ] Visuelles Feedback für Rad-Drehgeschwindigkeit (Skidmarks & Partikel)
-Einfaches visual das anzeigt wie schnell jedes rad in dem moment dreht in rpm
 
 
 
