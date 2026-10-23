@@ -17,7 +17,7 @@ kopierten Platzhalter-Schaltgabeln durch individuell angepasste Geometrien erset
 - [x] Funktionale ausmodellierung der Dogringe
 Dafür werden die umlaufenden Nuten für die Schaltgabeln modelliert. Zudem erhalten die Mitnehmerzähne der Gangzahnräder sowie die entsprechenden Taschen der Dogringe einen Hinterschnitt, damit die Gänge auch bei extremen Drehzahlen von bis zu 20.000 U/min unter Last sicher im Eingriff bleiben und nicht herausspringen.
 #### Zusammenfassung
-Die Modellierung der  sowie der Dogringe verlief erfolgreich und konnte abgeschlossen werden. Die Konstruktion der Schaltgabeln ließ sich in der verfügbaren Zeit noch nicht fertigstellen und wird in der nächsten Arbeitseinheit fortgesetzt.
+Die Modellierung der  sowie der Dogringe verlief erfolgreich und konnte abgeschlossen werden. Die Konstruktion der Schaltgabeln ließ sich in der verfügbaren Zeit noch nicht fertigstellen und wird in der nächsten Arbeitseinheit fortgesetzt ich habe zwar gedacht die haubtwelle zuhause abgeschlossen zu haben leider musste ich aber im unterricht noch einige verbesserungen/änderungen vornehmen.
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
