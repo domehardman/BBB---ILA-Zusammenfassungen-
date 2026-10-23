@@ -12,9 +12,9 @@ ________________________________________________________________________________
 #### Arbeitspakete
 - [x] Funktionale Ausmodellierung der Hauptwelle
 Dafür werden die genauen Wellenabsätze, Verzahnungen (Splines) und Lagersitze festgelegt. Zudem müssen die Aufnahmen und Führungen für die bereits erstellten Dogringe direkt in die Welle integriert werden, bevor abschließend die axialen Abstände zwischen den einzelnen Zahnrädern und Dogringen überprüft werden.
-- [] Spezifische Schaltgabel-Varianten konstruieren
+- [ ] Spezifische Schaltgabel-Varianten konstruieren
 kopierten Platzhalter-Schaltgabeln durch individuell angepasste Geometrien ersetzt. Dazu wird eine zweite und bei Bedarf auch eine dritte, seitlich gekröpfte Schaltgabel-Variante entworfen. Ein besonderer Fokus liegt dabei auf der geschickten Ausrichtung der Führungszapfen für die spätere Schaltwalze, damit diese so kurz und kompakt wie möglich gehalten werden kann.
-- [] Funktionale ausmodellierung der Dogringe
+- [ ] Funktionale ausmodellierung der Dogringe
 Dafür werden die umlaufenden Nuten für die Schaltgabeln modelliert. Zudem erhalten die Mitnehmerzähne der Gangzahnräder sowie die entsprechenden Taschen der Dogringe einen Hinterschnitt, damit die Gänge auch bei extremen Drehzahlen von bis zu 20.000 U/min unter Last sicher im Eingriff bleiben und nicht herausspringen.
 #### Zusammenfassung
 
