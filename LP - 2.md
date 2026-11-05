@@ -63,4 +63,5 @@ Die Zylinderlaufbuchse, in der sich der Kolben später bewegen wird, wird hinsic
 
 Die zuvor erstellten Einzelkomponenten (Kolben, Pleuel, Kurbelwelle und Laufbuchse) sowie die getriebeteile werden in einer Baugruppe zusammengefügt und räumlich ausgerichtet. Durch das Setzen der entsprechenden Gelenkverbindungen (Joints) wird die kinematische Kette geschlossen, um die Bewegungsabläufe des Kurbeltriebs virtuell auf Freigängigkeit überprüfen zu können.
 #### Zusammenfassung
+alles fertig da es ziemlich simpel war hatte ich keine probleme die assembly lief gut und ich fand keine probleme
 
