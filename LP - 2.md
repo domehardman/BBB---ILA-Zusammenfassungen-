@@ -47,19 +47,19 @@ ________________________________________________________________________________
 
 ## 30.10.2026
 #### Arbeitspakete
-- [ ] Blockout des Kolbens
+- [x] Blockout des Kolbens
 
 Die Grundform des Kolbens wird als vereinfachtes 3D-Modell konstruiert. Dabei werden die grundlegenden Dimensionen, wie Durchmesser und Kompressionshöhe, sowie die Aufnahmepunkte für den Kolbenbolzen festgelegt, um die Platzhalter-Geometrie für den späteren Kurbeltrieb zu definieren.
-- [ ] Blockout der Pleuelstange
+- [x] Blockout der Pleuelstange
 
 Das Pleuel wird als Verbindungselement zwischen Kolben und Kurbelwelle grob modelliert. Hierbei liegt der Fokus auf den benötigten Achsabständen (Pleuellänge) sowie den Dimensionen der oberen und unteren Pleuelaugen, um die kinematischen Voraussetzungen für die spätere Baugruppe zu schaffen.
-- [ ] Blockout der Kurbelwelle
+- [X] Blockout der Kurbelwelle
 
 Die grundlegende Struktur der Kurbelwelle inklusive der Hauptlager- und Hubzapfen wird als vereinfachtes Modell erstellt. Dadurch werden der benötigte Hubraum, die Rotationsachse und die räumlichen Abstände festgelegt, um das Zusammenspiel mit den restlichen Motorkomponenten zu gewährleisten.
-- [ ] Blockout der Laufbuchse
+- [x] Blockout der Laufbuchse
 
 Die Zylinderlaufbuchse, in der sich der Kolben später bewegen wird, wird hinsichtlich ihres inneren und äußeren Durchmessers sowie ihrer Gesamtlänge definiert. Dieses Platzhalter-Design dient dazu, den räumlichen Rahmen für die Auf- und Abwärtsbewegung des Kolbens festzulegen.
-- [ ] Zusammenbau des Motors
+- [x] Zusammenbau des Motors
 
 Die zuvor erstellten Einzelkomponenten (Kolben, Pleuel, Kurbelwelle und Laufbuchse) sowie die getriebeteile werden in einer Baugruppe zusammengefügt und räumlich ausgerichtet. Durch das Setzen der entsprechenden Gelenkverbindungen (Joints) wird die kinematische Kette geschlossen, um die Bewegungsabläufe des Kurbeltriebs virtuell auf Freigängigkeit überprüfen zu können.
 #### Zusammenfassung
