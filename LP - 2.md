@@ -88,4 +88,35 @@ ich modelliere das desmo valve system und die valves der unterschied zu einem ta
 ich werde alle teile in der assembly mit gelenken verbinden und dann schauen ob sich irgendetwas in der assembly unmöglich überlappt ausserdem werde ich dem ganzen motor etwas farbe geben zur einfacheren identifizierung einzelner teile
 
 #### Zusammenfassung
+heute lief super ich habe alles noch vor 16:15 erledigen können und musste daher nichts zuhause machen kleinere probleme gab es bei der internen "schwammstruktur" im kolben da diese schwer zu modellieren war ich glaube den kopf könnte man in dem gewicht noch etwas reduzieren aber dann sieht er nicht mehr gut aus...
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+## 20.11.2026
+
+#### Arbeitspakete
+- [X] Umbau des Getriebes auf ein mechanisches Seamless-Schnellschaltgetriebe (MotoGP-Prinzip)
+
+Das bestehende Dogring-Schaltsystem wird durch einen internen Sperrklinken- und Freilaufmechanismus (Ratchet/Pawl-System) innerhalb einer hohlen Getriebewelle ersetzt. Dadurch können zwei aufeinanderfolgende Gänge für den Bruchteil einer Sekunde gleichzeitig im Eingriff sein, wobei das schneller drehende Zahnrad das langsamere automatisch überholt und entriegelt. Dies ermöglicht extrem schnelle Gangwechsel unter Volllast ohne Zugkraftunterbrechung.
+- [X] Konstruktion des Kupplungskorbs (Clutch Basket) und der inneren Nabe
+
+Der äussere Kupplungskorb inklusive der Primärverzahnung zur Kurbelwelle sowie die innere Kupplungsnabe werden detailliert ausmodelliert. Besonderer Fokus liegt auf den Führungsfingern für die Lamellen, gezielten Aussparungen zur Gewichtsreduktion und der Ölzufuhr zur Kühlung. Optional wird eine mechanische Anti-Hopping-Rampe (Slipper-Clutch) integriert, um ein Stempeln des Hinterrads beim harten Herunterschalten aus hohen Drehzahlen zu verhindern.
+- [X] Modellierung des Kupplungspakets (Reib- und Stahlscheiben) sowie der Druckplatte
+
+Die abwechselnd geschichteten Reiblamellen (mit Aussenmitnehmern für den Korb) und Stahlscheiben (mit Innenverzahnung für die Nabe) werden konstruiert und als Paket auf der Getriebeeingangswelle ausgerichtet. Abschliessend wird die Kupplungsdruckplatte inklusive der Aufnahmen für die Kupplungsfedern modelliert, um den nötigen Anpressdruck für das hohe Drehmoment sicherzustellen.
+- [X] Blockout und Grundmodellierung des ersten Motorgehäuses (Kurbel- und Getriebegehäuse)
+
+Um die bestehenden Baugruppen (V2-Kurbeltrieb, Seamless-Getriebe und Kupplung) räumlich zu fixieren, wird die erste Hälfte des Motorgehäuses konstruiert. Dabei werden die exakten Lagersitze für Kurbel- und Getriebewellen, die Flanschflächen für die beiden V2-Zylinder sowie die äusseren Dichtflächen und Verschraubungspunkte festgelegt, während die Wandstärken so schlank und verwindungssteif wie möglich gehalten werden.
+
+#### Zusammenfassung
+Eigentlich lief heute alles ziemlich gut, allerdings hatte ich beim Umbau auf das Seamless-Getriebe ein paar Probleme mit meiner Zeitplanung. Ich habe die interne Mechanik mit den Sperrklinken am Anfang noch nicht so ganz verstanden und musste erst mal recherchieren, wie das genau funktioniert, damit sich beim Schalten nicht zwei Gänge gleichzeitig blockieren. Als das Prinzip dann klar war, ging das Modellieren von Getriebe, Clutch Basket und den Kupplungsscheiben aber ohne grössere Probleme. Durch die verlorene Zeit am Anfang hat es im Unterricht leider nicht mehr ganz für das erste Gehäuse gereicht, weshalb ich das bis zum nächsten Mal zuhause noch fertig machen muss.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
 
