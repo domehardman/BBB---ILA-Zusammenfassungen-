@@ -65,3 +65,27 @@ Die zuvor erstellten Einzelkomponenten (Kolben, Pleuel, Kurbelwelle und Laufbuch
 #### Zusammenfassung
 alles fertig da es ziemlich simpel war hatte ich keine probleme die assembly lief gut und ich fand keine probleme
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+## 13.11.2026
+
+#### Arbeitspakete
+- [x] neues motorlayout vergleichen und anpassen der assembly dafür
+
+ich habe chatgpt gefragt ob er in meinem fall einen v2 motor statt einen inline bauen würde er hat mir definitiv ja gesagt ich werde mich dazu informieren und dann entscheiden ob ich die assembly auf einen v2 ändern werde, da ich den kopf noch nicht modelliert habe werde ich auch nichts neu modellieren müssen
+- [x] ausweiden und detailieren der letzte woche modellierten teile
+
+Die letzte woche gemachten teile (kurbeltrieb) sind momentan nur grobe grössenschätzungen in diesem schritt werde ich sie detailiert und funktional modellieren un danach durch hohlräumen so viel gewicht entfernen wie möglich (der kolben daf nicht mehr als 125g wiegen damit er nicht die pleuel zerbricht)
+- [x] modellieren des kopfs
+
+ich modelliere den kopf komplett und achte auf einen genügend grossen hohlraum damit das dvalve system genügend platz hat (benötigt mehr als ein standart federventilsystem) ausserdem schaue ich auf eine optimale brennraumform sowie optimale valveöffungsfläche damit genug luft rein und raus kann
+- [X] modellieren der desmo valves und des valve systems
+
+ich modelliere das desmo valve system und die valves der unterschied zu einem tandartmässigen federventil trieb ist das die valves nicht zurüchfedern sondern fest mit der nockenwelle verbunden sind weshalb sichbei den hohen drehzahlen des motors kein valve float bilden kann valve float nennt man es wenn der valve nicht schnell genug zurückspringen kann und vom kolben getroffen wird was den valve sofort zerstören kann und damit auch den motor der nachteil an dem desmo system ist es ist kompliziert deswegen brauch ich möglicherweise mehrere überarbeitungen
+- [x] animieren des kurbeltriebs um überlappungen zu erkennen und diese zu entfernen
+
+ich werde alle teile in der assembly mit gelenken verbinden und dann schauen ob sich irgendetwas in der assembly unmöglich überlappt ausserdem werde ich dem ganzen motor etwas farbe geben zur einfacheren identifizierung einzelner teile
+
+#### Zusammenfassung
+
