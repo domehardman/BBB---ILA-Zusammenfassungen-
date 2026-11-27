@@ -59,3 +59,16 @@ Herausfordernd war vor allem die interne Hohlraumstruktur zur Gewichtsreduktion 
 #### Zusammenfassung
 Beim Umbau auf das Seamless-Getriebe hatte ich anfangs etwas Mühe mit der Zeitplanung, weil ich die genaue Sperrklinken-Mechanik im Inneren der Zahnräder erst im Detail verstehen und recherchieren musste, damit nicht zwei Gänge gleichzeitig blockieren. Sobald das Prinzip klar war, lief das Modellieren des Getriebes sowie des Kupplungskorbs und der Lamellen problemlos. 
 Da die Recherche am Anfang Zeit gekostet hat, reichte es im Unterricht nicht mehr ganz für das Motorgehäuse. Ich habe das komplette Gehäuse sowie den Ölkreislauf (Ölbehälter und Leitungen) anschliessend zuhause in meiner Freizeit fertiggestellt.
+
+## 27.11.2026
+#### Arbeitspakete
+- [x] **Fertigstellung des Ölsystems (Pumpe & interne Kanäle):** Konstruktion der Ölpumpe (Trochoidenpumpe) inklusive Antrieb über die Kurbelwelle sowie Modellierung der internen Ölbohrungen im Gehäuse und in der Kurbelwelle zur Schmierung der Gleitlager und Kolbenbodenkühlung.
+- [x] **Detailarbeit am Königswellen-Antrieb:** Ausmodellierung der Kegelradpaare, Schutzrohre und Lagerstellen für die Königswelle, um die Verbindung zwischen Kurbelwelle und dem Desmo-Ventiltrieb der beiden V2-Zylinderköpfe exakt abzuschliessen.
+- [x] **Feindetaillierung von Gehäuse und Verschraubungen:** Ergänzung von Dichtflächen, O-Ring-Nuten, Passstiften sowie sämtlichen Gewindebohrungen und Schraubenverbindungen an den Gehäusedeckeln und Zylinderfüssen.
+- [x] **Kantenbearbeitung und Vorbereitung für FEM-Analyse:** Anbringen von fertigungsgerechten Fasen und Verrundungen (Fillets) an hochbelasteten Übergängen zur Vermeidung von Kerbspannungen sowie abschliessende Kollisionsprüfung aller Gelenke.
+
+#### Zusammenfassung
+Heute stand vor allem die Fertigstellung des Ölsystems sowie allgemeine Detailarbeit am gesamten Motor im Fokus. Nachdem der externe Öltank und die Leitungen bereits letzte Woche zuhause entstanden sind, habe ich heute die Ölpumpe und die internen Ölkanäle fertig modelliert, sodass der Schmierkreislauf zu allen Lagerstellen komplett geschlossen ist.
+Danach habe ich mich um die restlichen Details gekümmert, insbesondere um die Kegelräder der Königswelle, die Verschraubungen am Gehäuse und das Setzen von Radien und Fasen an scharfen Kanten. Die Fillets an den komplexen Gehäuseübergängen haben in Fusion 360 stellenweise ein paar Fehlermeldungen ausgelöst, liessen sich über angepasste Radien aber sauber lösen. Damit ist das CAD-Modell nun vollständig detailliert und bereit für die anstehenden FEM-Belastungssimulationen.
+
+
